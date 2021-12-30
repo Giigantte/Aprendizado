@@ -15,6 +15,11 @@ jogada = input('Qual sua jogada? ')
 jogador1 = 'X'
 jogador2 = 'O'
 
+vitoria = [
+           [' ',' ','X'],
+           [' ',' ','X'],
+           [' ',' ','X'],
+]
 while True:
   if '7' == jogada:
     if jogobranco[0][0] == 'X':
@@ -122,4 +127,7 @@ while True:
     print('Esta opção não é valida!')
     jogada = input('Qual sua jogada? ')
 
-print('Houve {} jogadas'.format(cont_jogada))
+
+print('-=-'*6)
+print('Houve {} jogada(s)'.format(cont_jogada))
+print('-=-'*6)
