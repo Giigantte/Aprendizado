@@ -15,23 +15,23 @@ opcao = input('Qual sua jogada? ')
 while True:
   if '7' == opcao:
     jogobranco[0][0] = 'X'
-    linha1 = print(' {} I  {} I {} \n  --+---+---'.format(jogobranco[0][0],jogobranco[0][1], jogobranco[0][2]))
+    linha1 = print('  {} I {} I {} \n  --+---+---'.format(jogobranco[0][0],jogobranco[0][1], jogobranco[0][2]))
     linha2 = print('  {} I {} I {} \n  --+---+---'.format(jogobranco[1][0],jogobranco[1][1], jogobranco[1][2]))
-    linha3 = print('  {} I  {} I {}'.format(jogobranco[2][0],jogobranco[2][1], jogobranco[2][2]))
+    linha3 = print('  {} I {} I {}'.format(jogobranco[2][0],jogobranco[2][1], jogobranco[2][2]))
     jogada+= 1
     opcao = input('Qual sua jogada? ')
   elif '8' == opcao:
     jogobranco[0][1] = 'X'
     linha1 = print('  {} I {} I {} \n  --+---+---'.format(jogobranco[0][0],jogobranco[0][1], jogobranco[0][2]))
-    linha2 = print('  {} I  {} I {} \n  --+---+---'.format(jogobranco[1][0],jogobranco[1][1], jogobranco[1][2]))
-    linha3 = print('  {} I  {} I {}'.format(jogobranco[2][0],jogobranco[2][1], jogobranco[2][2]))
+    linha2 = print('  {} I {} I {} \n  --+---+---'.format(jogobranco[1][0],jogobranco[1][1], jogobranco[1][2]))
+    linha3 = print('  {} I {} I {}'.format(jogobranco[2][0],jogobranco[2][1], jogobranco[2][2]))
     jogada+= 1
     opcao = input('Qual sua jogada? ')
   elif '9' == opcao:
     jogobranco[0][2] = 'X'
-    linha1 = print('  {} I  {} I {} \n  --+---+---'.format(jogobranco[0][0],jogobranco[0][1], jogobranco[0][2]))
-    linha2 = print('  {} I  {} I {} \n  --+---+---'.format(jogobranco[1][0],jogobranco[1][1], jogobranco[1][2]))
-    linha3 = print('  {} I  {} I {}'.format(jogobranco[2][0],jogobranco[2][1], jogobranco[2][2]))
+    linha1 = print('  {} I {} I {} \n  --+---+---'.format(jogobranco[0][0],jogobranco[0][1], jogobranco[0][2]))
+    linha2 = print('  {} I {} I {} \n  --+---+---'.format(jogobranco[1][0],jogobranco[1][1], jogobranco[1][2]))
+    linha3 = print('  {} I {} I {}'.format(jogobranco[2][0],jogobranco[2][1], jogobranco[2][2]))
     jogada+= 1
     opcao = input('Qual sua jogada? ')
   else:
