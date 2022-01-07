@@ -16,8 +16,9 @@ jogador1 = 'X'
 jogador2 = 'O'
 
 def ganhou():
-  if jogobranco[0][0] == jogobranco[0][1] == jogobranco[0][2]:
+  if jogobranco[0][2] == jogobranco[1][2] == jogobranco[2][2] == vitoria[0][2] == vitoria[1][2] == vitoria[2][2]:
     print('Ganhou')
+    return fim()
   else:
     pass
 
@@ -138,6 +139,8 @@ while True:
       jogada = input('Qual sua jogada? ')
 
 
-print('-=-'*6)
-print('Houve {} jogada(s)'.format(cont_jogada))
-print('-=-'*6)
+def fim():
+  print('-=-'*6)
+  print('Houve {} jogada(s)'.format(cont_jogada))
+  print('-=-'*6)
+  breakpoint()
